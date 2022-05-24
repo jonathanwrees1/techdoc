@@ -1,0 +1,96 @@
+body {
+  font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-sans;
+  line-height: 1.5em;
+}
+
+
+nav {
+  display: block;
+}
+header {
+  margin: 10px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  
+}
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  
+}
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+  border-top: 1px solid;
+
+  
+}
+section {
+  display: block;
+}
+article {
+  width: inherit;
+  margin: 15px;
+}
+
+#main-doc {
+  display: block;
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+
+  margin-bottom: 110px;
+}
+#main-doc header {
+  text-align: left;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0px;
+}
+#main-doc li {
+  margin: 8px 0;
+}
+
+.code-example {
+  display: block;
+  background-color: lightgray;
+  padding: 15px;
+  margin: 10px;
+
+  width: inherit;
+}
+
+code {
+  background-color: lightgray;
+}
+
+#credit{
+  display:flex;
+  justify-content: center;
+  margin:30px 0 30px 0;
+}
+@media (max-width: 650px) {
+  #navbar {
+    height: auto;
+    width: 100%;
+    position: sticky;
+    border-right: none;
+  }
+}
+@media (max-width: 650px) {
+  #main-doc {
+    display: block;
+    margin: 0 0 0 0;
+  }
+}
